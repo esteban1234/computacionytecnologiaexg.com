@@ -15,6 +15,10 @@
         <a class="selector" href="contacto.php">CONTACTO</a>
       </ul>
     </nav>
+    <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+      <i class="fa fa-times close" aria-hidden="true"></i>
+    </div>  
   </div>
 
   <div>
@@ -29,10 +33,10 @@
 
   <div class="section" style="padding: 5% 0%; background: #d7dbdd; clear: both;">
       <div class="container">
-        <h1 class="text-center">Nuestras Especialidades</h1>
-      <hr> <br><br>
+        <h1 class="text-center tit-ne">Nuestras Especialidades</h1>
+      <hr class="hr-delete"> <br><br>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos" style="text-align: center;">
               <div class="progress progress-striped active">
                 <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
@@ -41,10 +45,10 @@
                 </div>
               </div>
             </div>
-            <h3 class="text-center">Desarrollo de Apps</h3>
+            <h3 class="text-center tit-ddie">Desarrollo de Apps</h3>
             <p class="text-center">Desarrollamos APPs Visualmente atractivas y funcionales utilizando tecnologías innovadoras.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos" style="text-align: center;">
               <div class="progress progress-striped active">
                 <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
@@ -53,10 +57,10 @@
                 </div>
               </div>
             </div>
-            <h3 class="text-center">Diseño web</h3>
+            <h3 class="text-center tit-ddie">Diseño web</h3>
             <p class="text-center">Diseño de Páginas Web de alta calidad enfocadas a fidelizar clientes potenciales.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos" style="text-align: center;">
               <div class="progress progress-striped active">
                 <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
@@ -65,10 +69,10 @@
                 </div>
               </div>
             </div>
-            <h3 class="text-center">Imagen corporativa</h3>
+            <h3 class="text-center tit-ddie">Imagen corporativa</h3>
             <p class="text-center">Especialistas en ofrecer a nuestros clientes la mejor imagen posible para sus negocios.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos" style="text-align: center;">
               <div class="progress progress-striped active">
                 <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
@@ -77,7 +81,7 @@
                 </div>
               </div>
             </div>
-            <h3 class="text-center">E-commerce</h3>
+            <h3 class="text-center tit-ddie">E-commerce</h3>
             <p class="text-center">Desarrollamos tiendas virtuales que faciliten la expansión de tu negocio a través de Internet.</p>
           </div>
         </div>
@@ -90,12 +94,12 @@
     <div class="section" style="padding:5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6">
             <img src="../img/cinco.jpg"
             class="img-responsive">
           </div>
-          <div class="col-md-6">
-            <h2>Computación y tecnología integral exg </h2>
+          <div class="col-sm-6 col-md-6">
+            <h2 class="tit-cti">Computación y tecnología integral exg </h2>
             <!-- <h3>Nosotros</h3> -->
             <p class="text">Ofrecemos soluciones web a medida con el objetivo de lograr un equilibrio entre funcionalidad e imagen. Realizamos páginas web, contemplando aspectos de navegación, estructura, usabilidad,posicionamiento web y seguridad. <br><br>
 
